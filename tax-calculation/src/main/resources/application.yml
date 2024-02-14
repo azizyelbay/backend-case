@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      username: root
+      password: example
+      host: localhost
+      port: 27017
+      database: tax-log
+      authentication-database: admin
